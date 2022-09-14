@@ -9,14 +9,118 @@
   </head>
   <body>
     <a-scene background="color: #333333">
-      <a-box id="myBox"
-        position="0.15 0 -5"
-        width="3"
-        height="2"
-        depth="1"
-        color="#BBAA33" 
+      <a-cylinder id="woodpoleR"
+      position="1.1 0 -4.3"
+      rotation="0 0 0"
+      radius="0.15"
+      height="1.4"
+      color="#59392c" 
+      shadow
+      >
+      </a-cylinder>
+      <a-cylinder id="woodpoleL"
+      position="-1.1 0 -4.3"
+      rotation="0 0 0"
+      radius="0.15"
+      height="1.4"
+      color="#59392c" 
+      shadow
+      >
+      </a-cylinder>
+      <a-cylinder id="woodpoleR2"
+      position="1.1 0 -6.3"
+      rotation="0 0 0"
+      radius="0.15"
+      height="1.4"
+      color="#59392c" 
+      shadow
+      >
+      </a-cylinder>
+      <a-cylinder id="woodpoleL2"
+      position="-1.1 0 -6.3"
+      rotation="0 0 0"
+      radius="0.15"
+      height="1.4"
+      color="#59392c" 
+      shadow
+      >
+      </a-cylinder>
+
+      <a-cylinder id="woodpoleR3"
+      position="1.1 0 -8.3"
+      rotation="0 0 0"
+      radius="0.15"
+      height="1.4"
+      color="#59392c" 
+      shadow
+      >
+      </a-cylinder>
+      <a-cylinder id="woodpoleL3"
+      position="-1.1 0 -8.3"
+      rotation="0 0 0"
+      radius="0.15"
+      height="1.4"
+      color="#59392c" 
+      shadow
+      >
+      </a-cylinder>
+
+      <a-cylinder id="woodpoleR4"
+      position="1.1 0 -10.3"
+      rotation="0 0 0"
+      radius="0.15"
+      height="1.4"
+      color="#59392c" 
+      shadow
+      >
+      </a-cylinder>
+      <a-cylinder id="woodpoleL4"
+      position="-1.1 0 -10.3"
+      rotation="0 0 0"
+      radius="0.15"
+      height="1.4"
+      color="#59392c" 
+      shadow
+      >
+      </a-cylinder>
+
+
+
+      <a-box id="wood"
+        position="0 0.5 -9"
+        width="2"
+        height="0.2"
+        depth="10"
+        color="#59392c" 
         shadow>
       </a-box>
+
+      
+      <a-box id="land"
+        position="0 0.12 -16"
+        width="40"
+        height="1"
+        depth="10"
+        color="#7aa655" 
+        shadow>
+      </a-box>
+
+      <a-plane
+        id="sea"
+        position="0 0 0"
+        rotation="-90 0 0"
+        width="25"
+        height="25"
+        color="#557aa6"
+        shadow
+            
+      
+      >
+     
+
+
+        
+      </a-plane>
     </a-scene>
   </body>
 </html>

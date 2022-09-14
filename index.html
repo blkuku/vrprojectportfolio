@@ -9,6 +9,10 @@
   </head>
   <body>
     <a-scene background="color: #333333">
+      <a-assets>
+        <img id="wood" src="images/wood.jpg" />
+        
+    </a-assets>
       <a-cylinder id="woodpoleR"
       position="1.1 0 -4.3"
       rotation="0 0 0"
@@ -87,12 +91,14 @@
 
 
       <a-box id="wood"
+        material="src:#wood"
         position="0 0.5 -9"
         width="2"
         height="0.2"
         depth="10"
         color="#59392c" 
-        shadow>
+        shadow
+        >
       </a-box>
 
       
